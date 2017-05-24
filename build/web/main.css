@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 9, 2017, 1:43:34 PM
+    Author     : MetalGearRay
+*/
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 305px;
+    
+}
+label{
+    float: left;
+    font-weight: bold; 
+    width: 100px;
+    display: inline-block;
+}
+h1 {     
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+table, td, th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 200%;
+}
+td, th{
+    text-align: left;
+    padding: 5px;
+}
+
+/* The styles for the classes */
+.desc{
+    text-align: left;
+}
+.price{
+    text-align: right;
+}
+.edit{
+    text-align: center;
+}
+.del{
+    text-align: center;
+}
+.button{
+    float: right;
+}
+
